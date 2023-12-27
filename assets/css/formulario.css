@@ -1,0 +1,334 @@
+/*
+Hoja de estilo
+aqui esta todo el front del formulario, input, botones,tarjetas,etc.
+*/
+
+:root {
+    --colorLetra: #ffffff;
+    --tamañoLetra: 18px;
+
+
+}
+
+
+.titulos {
+    font-size: var(--TituloSize);
+    font-weight: 600;
+
+
+}
+
+
+.esForm label {
+
+    display: block;
+    /* padding-top: 10px; */
+
+}
+
+.esCheck label {
+    padding: 2px;
+    margin: 4px;
+
+}
+
+
+
+
+.elementof1 {
+    grid-row: 1;
+    grid-column: 2/5;
+    padding: 30px;
+    margin: 30px;
+    width: 27vw;
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px 5px rgb(230, 229, 229);
+}
+
+
+
+
+.elementof2 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column: 5/7;
+    row-gap: 30px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 4px;
+    text-align: center;
+
+
+
+
+}
+
+.elem2-2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/5;
+    margin-top: 2px;
+    width: 300px;
+    height: 220px;
+    color:#ffffff;
+    background-color: #d83a3a;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px 5px rgb(230, 229, 229);
+
+}
+
+.elem2-2:hover{
+background-color: rgb(68, 68, 68);
+transition: 0.5s;
+
+}
+
+
+
+
+.elem2-3{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1/5;
+    margin-top: 2px;
+    width: 300px;
+    height: 250px;
+    color:#ffffff;
+    background-color: #300e80;
+    color:#ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 4px;
+    box-shadow: 2px 4px 5px 5px rgb(230, 229, 229);
+ 
+
+}
+
+.elem2-3:hover{
+    background-color: rgb(68, 68, 68);
+    transition: 0.5s;
+    
+    }
+    
+
+
+.tarjeta{
+
+    font-size: 2vw !important;
+    color:rgb(187, 186, 186);
+    
+}
+
+
+
+.estiloInput {
+    all: unset;
+    border: 1px solid rgb(182, 179, 179);
+    padding: 16px 20px 2px 4px;
+    font-size: var(--tamañoLetra);
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+
+
+
+}
+
+.verificador {
+    all: unset;
+    border: 1px solid rgb(182, 179, 179);
+    padding: 16px 15px 2px 9px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1vw;
+
+
+}
+
+.selectEstilo {
+
+    border: 1px solid rgb(182, 179, 179);
+    padding: 16px 20px 0px 4px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+
+
+}
+
+
+#inputVotar {
+
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    font-size: var(--tamañoLetra);
+    padding: 20px;
+    background-color: #b10606;
+    color: #ffffff;
+    transition: 0.4s;
+
+}
+
+
+
+#inputVotar:hover {
+    border: none;
+    border-radius: 4px;
+    font-size: var(--tamañoLetra);
+    background-color: #b3b3b3;
+    color: #eee9e9;
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+.reg{
+
+    font-size: 14px;
+}
+
+
+
+.error{
+color: rgb(196, 23, 23);
+font-weight: 400;
+text-transform: lowercase !important;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+
+    .elementof1 {
+        grid-row: 1;
+        grid-column: 1/9;
+        padding: 20px;
+        margin: 10px;
+        width: auto;
+        box-shadow: 2px 4px 5px 5px rgb(230, 229, 229);
+    }
+    
+.elementof2 {
+    grid-row: 2;
+    grid-column: 1/9;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 4px;
+
+
+
+}
+    
+
+.estiloInput {
+    all: unset;
+    border: 1px solid rgb(182, 179, 179);
+    padding: 16px 20px 2px 4px;
+    font-size: var(--tamañoLetra);
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+
+
+
+}
+
+
+
+.verificador {
+    all: unset;
+    border: 1px solid rgb(182, 179, 179);
+    padding: 16px 12px 0px 2px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 3vw;
+
+}
+
+
+.elem2-2{
+
+    grid-row: 1;
+    grid-column: 1/9;
+    margin-top: 2px;
+    padding: 10px;
+    height: auto;
+    border-radius: 0px;
+    font-size: 28px;
+  
+
+}
+
+
+.elem2-3{
+
+    grid-row: 2;
+    grid-column: 1/9;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 28px;
+    height: auto;
+
+}
+
+
+.tarjeta{
+
+    font-size: 8vw !important;
+    color:rgb(187, 186, 186);
+    
+}
+
+
+
+#inputVotar {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: var(--tamañoLetra);
+    padding: 10px;
+    background-color: #b10606;
+    color: #ffffff;
+    transition: 0.4s;
+
+
+}
+
+
+
+#inputVotar:hover {
+    border: none;
+    border-radius: 4px;
+    font-size: var(--tamañoLetra);
+    background-color: #b3b3b3;
+    color: #eee9e9;
+    transform: scale(1.01);
+    transition: 0.4s;
+
+}
+
+
+
+}

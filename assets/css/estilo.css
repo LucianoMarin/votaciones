@@ -1,0 +1,43 @@
+
+/*
+
+Hoja de estilo principal
+se define los parametros mas importantes y que no variaran entre las vistas
+se importan los demas estilos, hoja de error, formulario.
+
+*/
+
+
+@import url(error.css);
+@import url(formulario.css);
+
+
+
+:root {
+    --colorPrincipal: #f8f8f8;
+    --colorFont: #818181;
+    --letra: arial;
+    --letraSize: 16px;
+    --TituloSize: 20px;
+    --TituloErrorSize: 40px;
+    --letraESize: 20px;
+
+}
+
+
+* {
+
+    margin: 0px;
+
+}
+
+
+body {
+    background-color: var(--colorPrincipal);
+    color: var(--colorFont);
+    font-family: var(--letra);
+    font-size: var(--letraSize);
+}
+
+
+
