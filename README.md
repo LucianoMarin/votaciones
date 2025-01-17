@@ -31,6 +31,14 @@ PHP VERSION 8.1, BASE DE DATOS: MYSQL, JAVASCRIPT, AJAX, CSS, HTML
 
 
 
+<h1>IMAGENES DEL FORMULARIO DE VOTACION: </h1>
+<h3>Pagina principal</h3>
+<img src="https://github.com/user-attachments/assets/8721ee02-b650-4318-89f3-fbc346c26bd0">
+<br>
+<br>
+<h3>Error BD</h3>
+<img src="https://github.com/user-attachments/assets/521af91c-a1f0-45c4-a0bd-9fe8cf4e1ab3">
+
 
 
 
